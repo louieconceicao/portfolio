@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louie Conceicao - UX Designer & Marketer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .project-image {
+            transition: transform 0.7s ease;
+        }
+        
+        .project-card:hover .project-image {
+            transform: scale(1.05);
+        }
+        
+        .project-card:hover .project-arrow {
+            transform: translateX(0.5rem);
+        }
+        
+        .project-arrow {
+            transition: transform 0.3s ease;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-neutral-50">
+    <!-- Hero Section -->
+    <div class="max-w-7xl mx-auto px-6 lg:px-12 py-20 lg:py-32">
+        <div class="max-w-4xl">
+            <div class="mb-8">
+                <span class="text-sm font-medium text-neutral-500 tracking-wide uppercase">
+                    UX Designer × Marketer
+                </span>
+            </div>
+            
+            <h1 class="text-6xl lg:text-8xl font-light text-neutral-900 leading-none mb-8 tracking-tight">
+                Bridging UX and Marketing
+            </h1>
+            
+            <p class="text-2xl lg:text-3xl text-neutral-600 font-light leading-relaxed max-w-3xl">
+                Designing experiences that solve user needs and deliver business results
+            </p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="max-w-7xl mx-auto px-6 lg:px-12 py-20 border-t border-neutral-200">
+        <div class="grid lg:grid-cols-2 gap-16 items-start">
+            <div>
+                <h2 class="text-sm font-medium text-neutral-500 tracking-wide uppercase mb-6">
+                    Background
+                </h2>
+                <p class="text-xl text-neutral-700 leading-relaxed mb-6">
+                    I've always been drawn to the moment when a complicated process suddenly makes sense.
+                </p>
+                <p class="text-xl text-neutral-700 leading-relaxed">
+                    That curiosity has shaped my journey across marketing, research, and user experience/product design.
+                </p>
+            </div>
+            
+            <div class="space-y-12">
+                <div>
+                    <h3 class="text-lg font-medium text-neutral-900 mb-3">Marketing</h3>
+                    <p class="text-neutral-600 leading-relaxed">
+                        Gave me a deep understanding of how people think, make decisions, and respond to messaging
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-medium text-neutral-900 mb-3">UX Design</h3>
+                    <p class="text-neutral-600 leading-relaxed">
+                        Allows me to turn that understanding into intuitive, meaningful product experiences that drive business outcomes
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="max-w-7xl mx-auto px-6 lg:px-12 py-20">
+        <div class="mb-16">
+            <h2 class="text-sm font-medium text-neutral-500 tracking-wide uppercase mb-3">
+                Featured Work
+            </h2>
+            <p class="text-xl text-neutral-600 max-w-2xl">
+                Real projects demonstrating my approach: listening deeply, asking the right questions, and designing with intention
+            </p>
+        </div>
+
+        <div class="space-y-24">
+                        <!-- Project 2: B2B Billing Platform -->
+            <div class="project-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-neutral-200 rounded-sm mb-8 aspect-[16/10]">
+                    <img 
+                        src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1200&q=80" 
+                        alt="B2B Billing Platform UX"
+                        class="project-image w-full h-full object-cover"
+                    />
+                    <div class="absolute inset-0 bg-neutral-900/0 group-hover:bg-neutral-900/5 transition-colors duration-500"></div>
+                </div>
+
+                <div class="grid lg:grid-cols-12 gap-8">
+                    <div class="lg:col-span-7">
+                        <div class="flex items-baseline gap-4 mb-4">
+                            <h3 class="text-3xl lg:text-4xl font-light text-neutral-900">
+                                B2B Billing Platform UX
+                            </h3>
+                            <span class="text-neutral-400 text-sm">2023-2025</span>
+                        </div>
+                        
+                        <p class="text-sm text-neutral-500 mb-4 uppercase tracking-wide">
+                            Product Design
+                        </p>
+                        
+                        <p class="text-lg text-neutral-600 leading-relaxed mb-6">
+                            Led user experience initiatives for an enterprise billing platform. Conducted customer workshops to understand user persona needs, created detailed user flows and journey maps, and rapidly prototyped solutions validated with customers using agile practices.
+                        </p>
+                        
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-xs text-neutral-600 border border-neutral-300 px-3 py-1 rounded-full">
+                                User Research
+                            </span>
+                            <span class="text-xs text-neutral-600 border border-neutral-300 px-3 py-1 rounded-full">
+                                Customer Workshops
+                            </span>
+                            <span class="text-xs text-neutral-600 border border-neutral-300 px-3 py-1 rounded-full">
+                                Journey Mapping
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-5 flex flex-col justify-between">
+                        <div class="mb-8">
+                            <div class="text-sm text-neutral-500 mb-2 uppercase tracking-wide">Impact</div>
+                            <div class="text-4xl font-light text-neutral-900">Enhanced User Experience</div>
+                        </div>
+                        
+                        <button class="flex items-center gap-2 text-neutral-900 font-medium group-hover:gap-4 transition-all">
+                            View Case Study
+                            <svg class="project-arrow w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+ <!-- Project 1: Salesforce CPQ -->
+            <div class="project-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-neutral-200 rounded-sm mb-8 aspect-[16/10]">
+                    <img 
+                        src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80" 
+                        alt="Salesforce CPQ Implementation"
+                        class="project-image w-full h-full object-cover"
+                    />
+                    <div class="absolute inset-0 bg-neutral-900/0 group-hover:bg-neutral-900/5 transition-colors duration-500"></div>
+                </div>
+
+                <div class="grid lg:grid-cols-12 gap-8">
+                    <div class="lg:col-span-7">
+                        <div class="flex items-baseline gap-4 mb-4">
+                            <h3 class="text-3xl lg:text-4xl font-light text-neutral-900">
+                                Salesforce CPQ Implementation
+                            </h3>
+                            <span class="text-neutral-400 text-sm">2024</span>
+                        </div>
+                        
+                        <p class="text-sm text-neutral-500 mb-4 uppercase tracking-wide">
+                            Marketing & Sales Operations
+                        </p>
+                        
+                        <p class="text-lg text-neutral-600 leading-relaxed mb-6">
+                            Partnered with Sales and Marketing to implement a new CPQ (Configure, Price, Quote) solution. Improved sales automation and quote-to-contract efficiency by designing intuitive workflows that bridged technical requirements with business needs.
+                        </p>
+                        
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-xs text-neutral-600 border border-neutral-300 px-3 py-1 rounded-full">
+                                Sales Automation
+                            </span>
+                            <span class="text-xs text-neutral-600 border border-neutral-300 px-3 py-1 rounded-full">
+                                Workflow Design
+                            </span>
+                            <span class="text-xs text-neutral-600 border border-neutral-300 px-3 py-1 rounded-full">
+                                Business Process
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-5 flex flex-col justify-between">
+                        <div class="mb-8">
+                            <div class="text-sm text-neutral-500 mb-2 uppercase tracking-wide">Impact</div>
+                            <div class="text-4xl font-light text-neutral-900">Streamlined Quote-to-Contract</div>
+                        </div>
+                        
+                        <button class="flex items-center gap-2 text-neutral-900 font-medium group-hover:gap-4 transition-all">
+                            View Case Study
+                            <svg class="project-arrow w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3: Marketing Campaign Tracking -->
+            <div class="project-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-neutral-200 rounded-sm mb-8 aspect-[16/10]">
+                    <img 
+                        src="https://images.unsplash.com/photo-1557838923-2985c318be48?w=1200&q=80" 
+                        alt="Marketing Campaign Tracking System"
+                        class="project-image w-full h-full object-cover"
+                    />
+                    <div class="absolute inset-0 bg-neutral-900/0 group-hover:bg-neutral-900/5 transition-colors duration-500"></div>
+                </div>
+
+                <div class="grid lg:grid-cols-12 gap-8">
+                    <div class="lg:col-span-7">
+                        <div class="flex items-baseline gap-4 mb-4">
+                            <h3 class="text-3xl lg:text-4xl font-light text-neutral-900">
+                                Marketing Campaign Tracking System
+                            </h3>
+                            <span class="text-neutral-400 text-sm">2024</span>
+                        </div>
+                        
+                        <p class="text-sm text-neutral-500 mb-4 uppercase tracking-wide">
+                            Marketing & Analytics
+                        </p>
+                        
+                        <p class="text-lg text-neutral-600 leading-relaxed mb-6">
+                            Supported Marketing in setting up campaign tracking and external system integrations. Designed reporting dashboards and data flows that ensured accurate lead attribution and marketing performance analysis, enabling data-driven decision-making.
+                        </p>
+                        
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-xs text-neutral-600 border border-neutral-300 px-3 py-1 rounded-full">
+                                Marketing Operations
+                            </span>
+                            <span class="text-xs text-neutral-600 border border-neutral-300 px-3 py-1 rounded-full">
+                                Analytics
+                            </span>
+                            <span class="text-xs text-neutral-600 border border-neutral-300 px-3 py-1 rounded-full">
+                                Data Visualization
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-5 flex flex-col justify-between">
+                        <div class="mb-8">
+                            <div class="text-sm text-neutral-500 mb-2 uppercase tracking-wide">Impact</div>
+                            <div class="text-4xl font-light text-neutral-900">Improved Lead Attribution</div>
+                        </div>
+                        
+                        <button class="flex items-center gap-2 text-neutral-900 font-medium group-hover:gap-4 transition-all">
+                            View Case Study
+                            <svg class="project-arrow w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Approach Section -->
+    <div class="max-w-7xl mx-auto px-6 lg:px-12 py-32 border-t border-neutral-200">
+        <div class="grid lg:grid-cols-2 gap-16">
+            <div>
+                <h2 class="text-sm font-medium text-neutral-500 tracking-wide uppercase mb-6">
+                    My Approach
+                </h2>
+                <p class="text-2xl lg:text-3xl text-neutral-900 font-light leading-relaxed">
+                    I'm motivated by simplifying the complex and creating experiences that feel effortless for the people who use them, while ensuring they deliver real impact for the business.
+                </p>
+            </div>
+            
+            <div class="space-y-8">
+                <div class="border-l-2 border-neutral-300 pl-6">
+                    <h3 class="text-lg font-medium text-neutral-900 mb-2">Listen Deeply</h3>
+                    <p class="text-neutral-600 leading-relaxed">
+                        Uncover real user needs through research and empathy
+                    </p>
+                </div>
+                
+                <div class="border-l-2 border-neutral-300 pl-6">
+                    <h3 class="text-lg font-medium text-neutral-900 mb-2">Ask Right Questions</h3>
+                    <p class="text-neutral-600 leading-relaxed">
+                        Challenge assumptions to find the root problem
+                    </p>
+                </div>
+                
+                <div class="border-l-2 border-neutral-300 pl-6">
+                    <h3 class="text-lg font-medium text-neutral-900 mb-2">Design with Intent</h3>
+                    <p class="text-neutral-600 leading-relaxed">
+                        Create solutions that balance user needs and business goals
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="max-w-7xl mx-auto px-6 lg:px-12 py-32 border-t border-neutral-200">
+        <div class="max-w-3xl">
+            <h2 class="text-sm font-medium text-neutral-500 tracking-wide uppercase mb-6">
+                Get in Touch
+            </h2>
+            <p class="text-3xl lg:text-4xl text-neutral-900 font-light leading-relaxed mb-12">
+                I'm always interested in new opportunities to create meaningful experiences that drive results
+            </p>
+            
+            <div class="flex flex-wrap gap-4">
+                <a 
+                    href="https://linkedin.com/in/louieconceicao"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center gap-2 px-6 py-3 border border-neutral-300 text-neutral-900 text-sm font-medium hover:bg-neutral-100 transition-colors"
+                >
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="border-t border-neutral-200">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 py-8">
+            <p class="text-sm text-neutral-500">
+                © 2025 · Louie Conceicao · UX Design x Marketing · Built to drive results
+            </p>
+        </div>
+    </div>
+</body>
+</html

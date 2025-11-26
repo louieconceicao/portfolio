@@ -268,7 +268,7 @@ export default function Home() {
               I'm always interested in new opportunities to create meaningful experiences that drive results
             </p>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/louieconceicao/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-6 py-3 border border-neutral-300 rounded-sm text-neutral-900 font-medium hover:bg-neutral-50 transition-colors"

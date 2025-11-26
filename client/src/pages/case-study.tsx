@@ -39,7 +39,6 @@ const projects = {
   "design-system": {
     title: "Design System & Operations",
     role: "Design Ops Lead",
-    year: "2023-2025",
     description: "Established scalable design infrastructure by building out a comprehensive Figma library and templates.",
     challenge: "Inconsistent UI patterns across products were slowing down development and confusing users. There was no single source of truth for design components.",
     approach: [
@@ -50,8 +49,8 @@ const projects = {
     ],
     results: [
       "Reduced wireframing time by ~60% for new features.",
-      "Improved developer-designer handoff efficiency.",
-      "Achieved visual consistency across 3 major product lines."
+      "Improved designer-developer handoff efficiency.",
+      "Achieved visual consistency across product."
     ],
     image: designSystemImage,
     processImages: [uiImage, wireframeImage],
@@ -60,14 +59,13 @@ const projects = {
   "b2b-billing": {
     title: "B2B Billing Platform UX",
     role: "Senior UX Designer",
-    year: "2023-2025",
     description: "Led user experience initiatives for an enterprise billing platform. Conducted customer workshops and rapid prototyping.",
-    challenge: "Complex billing configurations were overwhelming users, leading to setup errors and customer churn. The legacy interface was difficult to navigate.",
+    challenge: "Complex billing configurations were overwhelming users, leading to setup errors and customer churn.",
     approach: [
       "Facilitated workshops with key enterprise customers to map their workflows.",
       "Created low-fidelity wireframes to test new navigation concepts.",
       "Iterated on high-fidelity prototypes based on usability testing feedback.",
-      "Worked side-by-side with developers to ensure implementation accuracy."
+      "Worked closely with product owners, team leads, developers, and QA using agile delivery practices."
     ],
     results: [
       "Redesigned the core billing configuration wizard.",
@@ -80,8 +78,7 @@ const projects = {
   },
   "salesforce-cpq": {
     title: "Salesforce CPQ Implementation",
-    role: "UX & CRM Specialist",
-    year: "2024",
+    role: "UX & CRM SME",
     description: "Partnered with Sales and Marketing to implement a new CPQ solution. Streamlined quote-to-contract efficiency.",
     challenge: "The sales quoting process was manual and error-prone, resulting in long sales cycles and incorrect pricing.",
     approach: [
@@ -93,7 +90,8 @@ const projects = {
     results: [
       "Reduced quote generation time from days to minutes.",
       "Eliminated pricing errors in contracts.",
-      "Streamlined approval workflows for discounts."
+      "Streamlined approval workflows.",
+      "Automated renewal process."
     ],
     image: salesforceImage,
     processImages: [workshopImage, uiImage],
@@ -102,14 +100,12 @@ const projects = {
   "marketing-tracking": {
     title: "Marketing Campaign Tracking System",
     role: "Marketing Operations",
-    year: "2024",
     description: "Supported Marketing in setting up campaign tracking and external system integrations. Designed reporting dashboards.",
     challenge: "Marketing spend was difficult to attribute to revenue. Data was siloed in different tools, making ROI analysis impossible.",
     approach: [
       "Integrated marketing automation platform with Salesforce.",
       "Designed a unified data model for campaign attribution.",
       "Built real-time dashboards for executive reporting.",
-      "Implemented UTM tracking standards across all channels."
     ],
     results: [
       "Achieved 100% visibility into marketing pipeline contribution.",

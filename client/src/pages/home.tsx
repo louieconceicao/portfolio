@@ -141,7 +141,7 @@ export default function Home() {
 
           <div className="mt-12 text-center">
             <a 
-              href="/louie-conceicao-reference.pdf" 
+              href="/portfolio/louie-conceicao-reference.pdf" 
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-neutral-600 hover:text-neutral-900 transition-colors border-b border-neutral-300 hover:border-neutral-900 pb-0.5"

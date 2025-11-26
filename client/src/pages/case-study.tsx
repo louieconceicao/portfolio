@@ -19,19 +19,18 @@ const projects = {
   "connector-app": {
     title: "LogiSense Salesforce Connector",
     role: "Product Lead & UX",
-    year: "2024-2025",
-    description: "Led the development of LogiSense's first Salesforce-native connector application. Collaborated with external development partners (Appcino) to enable seamless integration with the billing platform.",
+    description: "Led the development of LogiSense's first Salesforce-native connector application. Collaborated with external development partners to enable seamless integration with the billing platform.",
     challenge: "LogiSense needed a native Salesforce presence to reduce friction for sales teams and improve data synchronization reliability. The existing solution was fragile and required constant maintenance.",
     approach: [
       "Conducted stakeholder interviews with Sales and Support teams to identify pain points.",
       "Defined technical requirements and API constraints with the engineering team.",
-      "Managed the vendor relationship with Appcino, running weekly sprint reviews.",
+      "Managed the vendor relationship, running weekly sprint reviews.",
       "Designed the configuration UI to be familiar to Salesforce admins."
     ],
     results: [
       "Launched on Salesforce AppExchange.",
-      "Reduced support tickets related to sync errors by 40%.",
-      "Enabled 2-way real-time synchronization of account data."
+      "Enabled users to sync data reliably without developer intervention, significantly lowering integration-related support overhead.",
+      "Enabled 2-way real-time synchronization of account, opportunty, and order data."
     ],
     image: connectorImage,
     processImages: [wireframeImage, uiImage],

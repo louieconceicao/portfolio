@@ -5,7 +5,7 @@ import billingImage from "@assets/stock_images/modern_dashboard_int_55977e6a.jpg
 import salesforceImage from "@assets/stock_images/business_team_meetin_9d4f3dc3.jpg";
 import marketingImage from "@assets/stock_images/analytics_dashboard__cda96c0e.jpg";
 import designSystemImage from "@assets/stock_images/figma_design_system__75037db1.jpg";
-import connectorImage from "@assets/stock_images/salesforce_app_excha_2a49101b.jpg";
+import connectorImage from "@assets/stock_images/salesforce-logisense-erd.png";
 import wireframeImage from "@assets/stock_images/salesforce-logisense-erd.png";
 import workshopImage from "@assets/stock_images/collaborative_worksh_2595f350.jpg";
 import uiImage from "@assets/stock_images/clean_user_interface_e68efabf.jpg";

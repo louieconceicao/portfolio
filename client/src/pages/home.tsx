@@ -171,7 +171,6 @@ export default function Home() {
           {/* Project: Salesforce Connector App - NEW */}
            <ProjectCard 
             title="LogiSense Salesforce Connector"
-            year="2024-2025"
             category="Product Management & Development"
             description="Led the development of LogiSense's first Salesforce-native connector application. Collaborated with external development partners (Appcino) to enable seamless integration with the billing platform, bridging technical constraints with business goals."
             tags={["Product Leadership", "Vendor Management", "System Integration"]}
@@ -183,7 +182,6 @@ export default function Home() {
           {/* Project: Design System - NEW */}
           <ProjectCard 
             title="Design System & Operations"
-            year="2023-2025"
             category="Design Ops"
             description="Established scalable design infrastructure by building out a comprehensive Figma library and templates. This supported rapid wireframing and prototype development, ensuring consistency across agile development teams and reducing time-to-value."
             tags={["Design Systems", "Figma Library", "Agile Process"]}
@@ -195,7 +193,6 @@ export default function Home() {
           {/* Project 1: B2B Billing Platform */}
           <ProjectCard 
             title="B2B Billing Platform UX"
-            year="2023-2025"
             category="Product Design"
             description="Led user experience initiatives for an enterprise billing platform. Conducted customer workshops to understand user persona needs, created detailed user flows and journey maps, and rapidly prototyped solutions validated with customers using agile practices."
             tags={["User Research", "Customer Workshops", "Journey Mapping"]}
@@ -207,7 +204,6 @@ export default function Home() {
           {/* Project 2: Salesforce CPQ */}
           <ProjectCard 
             title="Salesforce CPQ Implementation"
-            year="2024"
             category="Marketing & Sales Operations"
             description="Partnered with Sales and Marketing to implement a new CPQ (Configure, Price, Quote) solution. Served as lead SME for integration projects involving Conga Composer and contract management systems, streamlining document generation and approval processes."
             tags={["Sales Automation", "Workflow Design", "Conga Composer"]}
@@ -219,7 +215,6 @@ export default function Home() {
           {/* Project 3: Marketing Campaign Tracking */}
           <ProjectCard 
             title="Marketing Campaign Tracking System"
-            year="2024"
             category="Marketing & Analytics"
             description="Supported Marketing in setting up campaign tracking and external system integrations. Designed reporting dashboards and data flows that ensured accurate lead attribution and marketing performance analysis, enabling data-driven decision-making."
             tags={["Data Visualization", "Analytics Dashboard", "System Integration"]}

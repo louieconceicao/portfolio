@@ -60,9 +60,7 @@ const projects = {
     title: "B2B Billing Platform UX",
     role: "Senior UX Designer",
     description: "Forget the before.",
-    challenge: "Although a previous version of the billing UI existed, I was asked to completely disregard it and start from scratch. The legacy interface had grown organically over time, was difficult to navigate, and didn’t reflect the future direction of the product.",
-    "This meant treating the project not as a redesign, but as a ground-up rethink of the entire billing experience. The challenge was to take deeply complex billing workflows and design a new interface that was intuitive, scalable, and easy for non-technical users to understand.",
-
+    challenge: "Although a previous version of the billing UI existed, I was asked to completely disregard it and start from scratch. The legacy interface had grown organically over time, was difficult to navigate, and didn’t reflect the future direction of the product. This meant treating the project not as a redesign, but as a ground-up rethink of the entire billing experience. The challenge was to take deeply complex billing workflows and design a new interface that was intuitive, scalable, and easy for non-technical users to understand.",
     approach: [
       "Define new mental models",
       "Create new workflow structures.",

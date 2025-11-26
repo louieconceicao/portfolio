@@ -59,18 +59,22 @@ const projects = {
   "b2b-billing": {
     title: "B2B Billing Platform UX",
     role: "Senior UX Designer",
-    description: "Led user experience initiatives for an enterprise billing platform. Conducted customer workshops and rapid prototyping.",
-    challenge: "Complex billing configurations were overwhelming users, leading to setup errors and customer churn.",
+    description: "Forget the before.",
+    challenge: "Although a previous version of the billing UI existed, I was asked to completely disregard it and start from scratch. The legacy interface had grown organically over time, was difficult to navigate, and didn’t reflect the future direction of the product.",
+    "This meant treating the project not as a redesign, but as a ground-up rethink of the entire billing experience. The challenge was to take deeply complex billing workflows and design a new interface that was intuitive, scalable, and easy for non-technical users to understand.",
+
     approach: [
-      "Facilitated workshops with key enterprise customers to map their workflows.",
-      "Created low-fidelity wireframes to test new navigation concepts.",
-      "Iterated on high-fidelity prototypes based on usability testing feedback.",
-      "Worked closely with product owners, team leads, developers, and QA using agile delivery practices."
+      "Define new mental models",
+      "Create new workflow structures.",
+      "Build clear, visual relationships between complex objects.",
+      "Reduce cognitive load across multi-step configurations.",
+      "Ensure the UI aligned with both technical contraints and business goals."
     ],
     results: [
-      "Redesigned the core billing configuration wizard.",
-      "Increased user satisfaction scores (CSAT) by 15 points.",
-      "Reduced training time for new admins by 30%."
+      "Established the interaction patterns and workflow architeture that the product now builds on for future enhancements.",
+      "Created a unified interface system that improved clarity and reduced cognitive load, making complex billing tasks approachable for non-technical users.",
+      "Delivered high-fidelity prototypes that aligned engineering, product, and customer-facing teams, reducing misunderstandings and accelerating development readiness.",
+      "Developed user personas and task flows that directly shaped the product’s structure, ensuring that each screen and workflow mapped to real user needs and day-to-day billing behaviors."
     ],
     image: billingImage,
     processImages: [workshopImage, wireframeImage],

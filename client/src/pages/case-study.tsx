@@ -1,4 +1,4 @@
-nimport { useRoute, useLocation } from "wouter";
+import { useRoute, useLocation } from "wouter";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 import billingImage from "@assets/stock_images/modern_dashboard_int_55977e6a.jpg";

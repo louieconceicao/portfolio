@@ -226,24 +226,22 @@ export default function CaseStudy() {
         </section>
 
         {/* Visuals */}
-        <section className="bg-neutral-100 p-8 lg:p-12 rounded-sm -mx-6 lg:-mx-12">
-             <div className="grid lg:grid-cols-2 gap-8">
-                <div className="aspect-[4/3] bg-neutral-200 rounded-sm overflow-hidden relative group">
-                    <img 
-                      src={project.processImages[0]} 
-                      alt="Process Artifact 1" 
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                    />
-                </div>
-                <div className="aspect-[4/3] bg-neutral-200 rounded-sm overflow-hidden relative group">
-                    <img 
-                      src={project.processImages[1]} 
-                      alt="Process Artifact 2" 
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                    />
-                </div>
-             </div>
-        </section>
+{project.processImages && project.processImages.length > 0 && (
+  <section className="bg-neutral-100 p-8 lg:p-12 rounded-sm -mx-6 lg:-mx-12">
+    <div className="grid lg:grid-cols-2 gap-8">
+      {project.processImages.map((img, i) => (
+        <div key={i} className="aspect-[4/3] bg-neutral-200 rounded-sm overflow-hidden relative group">
+          <img 
+            src={img} 
+            alt={`Process Artifact ${i + 1}`} 
+            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+        </div>
+      ))}
+    </div>
+  </section>
+)}
+
 
         {/* Results */}
         <section className="grid lg:grid-cols-12 gap-12">

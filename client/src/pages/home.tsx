@@ -172,7 +172,7 @@ export default function Home() {
            <ProjectCard 
             title="LogiSense Salesforce Connector"
             category="Product Management & Development"
-            description="Led the development of LogiSense's first Salesforce-native connector application. Collaborated with external development partners (Appcino) to enable seamless integration with the billing platform, bridging technical constraints with business goals."
+            description="Led the development of LogiSense's first Salesforce-native connector application. Collaborated with external development partners to enable seamless integration with the billing platform, bridging technical constraints with business goals."
             tags={["Product Leadership", "Vendor Management", "System Integration"]}
             impact="Seamless Platform Integration"
             image={connectorImage}

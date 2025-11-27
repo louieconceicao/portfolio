@@ -292,7 +292,6 @@ import { useLocation } from "wouter";
 
 interface ProjectCardProps {
   title: string;
-  year: string;
   category: string;
   description: string;
   tags: string[];
@@ -301,7 +300,7 @@ interface ProjectCardProps {
   id: string;
 }
 
-function ProjectCard({ title, year, category, description, tags, impact, image, id }: ProjectCardProps) {
+function ProjectCard({ title, category, description, tags, impact, image, id }: ProjectCardProps) {
   const [_, setLocation] = useLocation();
   
   return (
@@ -330,7 +329,6 @@ function ProjectCard({ title, year, category, description, tags, impact, image, 
             <h3 className="text-3xl lg:text-4xl font-light text-neutral-900" data-testid={`title-${id}`}>
               {title}
             </h3>
-            <span className="text-neutral-400 text-sm">{year}</span>
           </div>
           
           <p className="text-sm text-neutral-500 mb-4 uppercase tracking-wide">

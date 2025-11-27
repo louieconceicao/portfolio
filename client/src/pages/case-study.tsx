@@ -210,4 +210,179 @@ export default function CaseStudy() {
     <div className="min-h-screen bg-background text-foreground font-sans pb-32">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 bg-background/80 backdrop-blur-md z-50 border-b border-neutral-200">
-        <div className="max-w-7xl m
+        <div className="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
+          <button
+            onClick={() => setLocation("/")}
+            className="text-sm font-medium text-neutral-500 hover:text-neutral-900 transition-colors flex items-center gap-2"
+          >
+            <svg
+              className="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M10 19l-7-7m0 0l7-7m-7 7h18"
+              ></path>
+            </svg>
+            Back to Projects
+          </button>
+        </div>
+      </nav>
+
+      {/* Hero */}
+      <header className="pt-32 pb-20 px-6 lg:px-12 max-w-7xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+          <div className="flex flex-wrap gap-4 mb-8 items-center text-sm text-neutral-500 uppercase tracking-wide font-medium">
+            <span>{project.role}</span>
+            <span className="w-1 h-1 bg-neutral-300 rounded-full"></span>
+          </div>
+
+          <h1 className="text-5xl lg:text-7xl font-light text-neutral-900 mb-8 leading-tight">
+            {project.title}
+          </h1>
+
+          <div className="flex flex-wrap gap-2 mb-12">
+            {project.tags.map((tag) => (
+              <span
+                key={tag}
+                className="text-sm text-neutral-600 border border-neutral-300 px-4 py-1.5 rounded-full"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.98 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="aspect-[21/9] bg-neutral-200 rounded-sm overflow-hidden mb-20"
+        >
+          <img
+            src={project.image}
+            alt={project.title}
+            className="w-full h-full object-cover"
+          />
+        </motion.div>
+      </header>
+
+      {/* Content */}
+      <main className="max-w-4xl mx-auto px-6 lg:px-12 space-y-24">
+        {/* Challenge */}
+        <section>
+          <h2 className="text-sm font-medium text-neutral-500 tracking-wide uppercase mb-6">
+            The Challenge
+          </h2>
+          <p className="text-2xl font-light text-neutral-800 leading-relaxed">
+            {project.challenge}
+          </p>
+        </section>
+
+        {/* Solution */}
+        <section>
+          <h2 className="text-sm font-medium text-neutral-500 tracking-wide uppercase mb-6">
+            The Solution
+          </h2>
+          <div className="text-2xl font-light text-neutral-800 leading-relaxed space-y-2">
+            {project.solution.map((item, i) =>
+              typeof item === "string" ? <p key={i}>{item}</p> : <div key={i}>{item}</div>
+            )}
+          </div>
+        </section>
+
+        {/* Approach */}
+        <section className="grid lg:grid-cols-12 gap-12 border-t border-neutral-200 pt-20">
+          <div className="lg:col-span-4">
+            <h2 className="text-sm font-medium text-neutral-500 tracking-wide uppercase mb-6">
+              The Approach
+            </h2>
+          </div>
+          <div className="lg:col-span-8">
+            <ul className="space-y-6">
+              {project.approach.map((item, i) => (
+                <li key={i} className="flex gap-6 items-start group">
+                  <span className="text-neutral-300 font-light text-xl group-hover:text-neutral-900 transition-colors">
+                    0{i + 1}
+                  </span>
+                  <p className="text-lg text-neutral-700 leading-relaxed pt-1">{item}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
+        {/* Visuals */}
+        {project.processImages?.length > 0 && (
+          <section className="bg-neutral-100 p-8 lg:p-12 rounded-sm -mx-6 lg:-mx-12">
+            <div className="grid lg:grid-cols-2 gap-8">
+              {project.processImages.map((img, i) => (
+                <div
+                  key={i}
+                  className="aspect-[4/3] bg-neutral-200 rounded-sm overflow-hidden relative group"
+                >
+                  <img
+                    src={img}
+                    alt={`Process Artifact ${i + 1}`}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Results */}
+        <section className="grid lg:grid-cols-12 gap-12">
+          <div className="lg:col-span-4">
+            <h2 className="text-sm font-medium text-neutral-500 tracking-wide uppercase mb-6">
+              The Results
+            </h2>
+          </div>
+          <div className="lg:col-span-8">
+            <div className="grid gap-8">
+              {project.results.map((item, i) => (
+                <div key={i} className="border-l-2 border-neutral-200 pl-6 py-2">
+                  {typeof item === "string" ? (
+                    <p className="text-xl text-neutral-800 font-light">{item}</p>
+                  ) : (
+                    <div className="text-xl text-neutral-800 font-light">{item}</div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Key Learnings */}
+        <section className="grid lg:grid-cols-12 gap-12 border-t border-neutral-200 pt-20">
+          <div className="lg:col-span-4">
+            <h2 className="text-sm font-medium text-neutral-500 tracking-wide uppercase mb-6">
+              Key Learnings
+            </h2>
+          </div>
+          <div className="lg:col-span-8">
+            <ul className="space-y-6">
+              {project.keyLearnings.map((item, i) => (
+                <li key={i} className="flex gap-6 items-start group">
+                  <span className="text-neutral-300 font-light text-xl group-hover:text-neutral-900 transition-colors">
+                    0{i + 1}
+                  </span>
+                  <p className="text-lg text-neutral-700 leading-relaxed pt-1">{item}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      </main>
+    </div>
+  );
+}

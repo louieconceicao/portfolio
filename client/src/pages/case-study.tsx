@@ -24,7 +24,7 @@ const projects = {
     ],
     results: [
       "Launched on Salesforce AppExchange.",
-      "Application documentation and screenshots can be found on the <a href="https://learn.logisense.com/docs/1511653389/" target="_blank">LogiSense Website.</a>";
+      "Application documentation and screenshots: https://learn.logisense.com/docs/1511653389";
       "Enabled users to sync data reliably without developer intervention, significantly lowering integration-related support overhead.",
       "Enabled 2-way real-time synchronization of account, opportunty, and order data."
     ],

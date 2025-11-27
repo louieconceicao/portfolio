@@ -326,18 +326,29 @@ export default function CaseStudy() {
               ))}
             </div>
           </div>
-        </section>
+        </section>   
 
- {/* Content */}
-      <main className="max-w-4xl mx-auto px-6 lg:px-12 space-y-24">
-        {/* Learnings */}
-        <section>
-          <h2 className="text-sm font-medium text-neutral-500 tracking-wide uppercase mb-6">
-            key Learnings
-          </h2>
-          <p className="text-2xl font-light text-neutral-800 leading-relaxed">
-            {project.keyLearnings}
-          </p>
+ {/* Key Learnings */}
+        <section className="grid lg:grid-cols-12 gap-12 border-t border-neutral-200 pt-20">
+          <div className="lg:col-span-4">
+            <h2 className="text-sm font-medium text-neutral-500 tracking-wide uppercase mb-6">
+              Key Learnings
+            </h2>
+          </div>
+          <div className="lg:col-span-8">
+            <ul className="space-y-6">
+              {project.approach.map((item, i) => (
+                <li key={i} className="flex gap-6 items-start group">
+                  <span className="text-neutral-300 font-light text-xl group-hover:text-neutral-900 transition-colors">
+                    0{i + 1}
+                  </span>
+                  <p className="text-lg text-neutral-700 leading-relaxed pt-1">
+                    {item}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </div>
         </section>
         
       </main>

@@ -16,8 +16,22 @@ const projects = {
     role: "Product Lead & UX",
     description:
       "Led the development of LogiSense's first Salesforce-native connector application. Collaborated with external development partners to enable seamless integration with the billing platform.",
+    myRole: [
+      "As Product Lead & UX Designer, I defined product direction, collaborated with engineering, drove cross-team alignment, managed vendor delivery, and designed the full configuration experience for Salesforce admins.",
+    ],
     challenge:
       "LogiSense needed a native Salesforce presence to reduce friction for sales teams and improve data synchronization reliability. The existing solution was fragile and required constant maintenance.",
+    approach: [
+      "Conducted stakeholder interviews with Sales and Support teams to identify pain points.",
+      "Defined technical requirements and API constraints with the engineering team.",
+      "Managed the vendor relationship, running weekly sprint reviews.",
+      "Designed the configuration UI to be familiar to Salesforce admins.",
+    ],
+    solution: [
+      "Designed a Salesforce-native configuration interface aligned with admin expectations.",
+      "Defined sync rules, validation flows, and error-handling states.",
+      "Created a simplified setup experience that minimized dependency on technical resources.",
+    ],
     approach: [
       "Conducted stakeholder interviews with Sales and Support teams to identify pain points.",
       "Defined technical requirements and API constraints with the engineering team.",
@@ -39,6 +53,11 @@ const projects = {
       </div>,
       "Enabled users to sync data reliably without developer intervention, significantly lowering integration-related support overhead.",
       "Enabled 2-way real-time synchronization of account, contact, opportunity, and order data between Salesforce and LogiSense Billing platform.",
+    ],
+    keyLearnings [
+       "Deepened understanding of Salesforce admin workflows and platform constraints.",
+      "Learned how to manage external vendors while maintaining product quality and UX consistency.",
+      "Reinforced the importance of early cross-team alignment on data models and sync logic.",
     ],
     image: connectorImage,
     tags: ["Product Leadership", "Vendor Management", "System Integration"],
@@ -233,6 +252,18 @@ export default function CaseStudy() {
             {project.challenge}
           </p>
         </section>
+        
+        {/* Content */}
+      <main className="max-w-4xl mx-auto px-6 lg:px-12 space-y-24">
+        {/* Solution */}
+        <section>
+          <h2 className="text-sm font-medium text-neutral-500 tracking-wide uppercase mb-6">
+            The Solution
+          </h2>
+          <p className="text-2xl font-light text-neutral-800 leading-relaxed">
+            {project.solution}
+          </p>
+        </section>
 
         {/* Approach */}
         <section className="grid lg:grid-cols-12 gap-12 border-t border-neutral-200 pt-20">
@@ -301,6 +332,19 @@ export default function CaseStudy() {
             </div>
           </div>
         </section>
+
+ {/* Content */}
+      <main className="max-w-4xl mx-auto px-6 lg:px-12 space-y-24">
+        {/* Learnings */}
+        <section>
+          <h2 className="text-sm font-medium text-neutral-500 tracking-wide uppercase mb-6">
+            key Learnings
+          </h2>
+          <p className="text-2xl font-light text-neutral-800 leading-relaxed">
+            {project.keyLearnings}
+          </p>
+        </section>
+        
       </main>
     </div>
   );

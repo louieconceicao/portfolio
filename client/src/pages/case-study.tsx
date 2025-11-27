@@ -7,8 +7,8 @@ import marketingImage from "@assets/stock_images/analytics_dashboard__cda96c0e.j
 import designSystemImage from "@assets/stock_images/figma_design_system__75037db1.jpg";
 import connectorImage from "@assets/stock_images/logisense-salesforce-connector.jpg";
 import workshopImage from "@assets/stock_images/collaborative_worksh_2595f350.jpg";
-import uiImage from "@assets/stock_images/ui_image.jpg";
-import wireframeImage from "@assets/stock_images/wireframe_image.jpg";
+import uiImage from "@assets/stock_images/clean_user_interface_e68efabf.jpg";
+import wireframeImage from "@assets/stock_images/ux_design_wireframe_2089c48a.jpg";
 
 const projects = {
   "connector-app": {

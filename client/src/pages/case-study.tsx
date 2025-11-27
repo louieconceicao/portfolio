@@ -351,6 +351,5 @@ export default function CaseStudy() {
         </section>
         
       </main>
-    </div>
   );
 }

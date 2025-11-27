@@ -32,12 +32,7 @@ const projects = {
       "Defined sync rules, validation flows, and error-handling states.",
       "Created a simplified setup experience that minimized dependency on technical resources.",
     ],
-    approach: [
-      "Conducted stakeholder interviews with Sales and Support teams to identify pain points.",
-      "Defined technical requirements and API constraints with the engineering team.",
-      "Managed the vendor relationship, running weekly sprint reviews.",
-      "Designed the configuration UI to be familiar to Salesforce admins.",
-    ],
+   
     results: [
       "Launched on Salesforce AppExchange.",
       <div key="kb">
@@ -54,7 +49,7 @@ const projects = {
       "Enabled users to sync data reliably without developer intervention, significantly lowering integration-related support overhead.",
       "Enabled 2-way real-time synchronization of account, contact, opportunity, and order data between Salesforce and LogiSense Billing platform.",
     ],
-    keyLearnings [
+    keyLearnings: [
        "Deepened understanding of Salesforce admin workflows and platform constraints.",
       "Learned how to manage external vendors while maintaining product quality and UX consistency.",
       "Reinforced the importance of early cross-team alignment on data models and sync logic.",

@@ -8,7 +8,7 @@ import designSystemImage from "@assets/stock_images/figma_design_system__75037db
 import connectorImage from "@assets/stock_images/logisense-salesforce-connector.jpg";
 import workshopImage from "@assets/stock_images/collaborative_worksh_2595f350.jpg";
 import uiImage from "@assets/stock_images/clean_user_interface_e68efabf.jpg";
-import wireframeImage from "@assets/stock_images/ux_design_wireframe_2089c48a.jpg";
+import wireframeImage from "@assets/stock_images/ux_design_wireframe__2089c48a.jpg";
 
 const projects = {
   "connector-app": {

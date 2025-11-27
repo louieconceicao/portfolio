@@ -10,11 +10,6 @@ import wireframeImage from "@assets/stock_images/object-mapping.jpg";
 import workshopImage from "@assets/stock_images/collaborative_worksh_2595f350.jpg";
 import uiImage from "@assets/stock_images/clean_user_interface_e68efabf.jpg";
 
-// Placeholder images for details (in a real app these would be specific to each project)
-// We will use the ones we are about to download, for now let's reuse some or wait for the tool output
-// I'll define the structure and fill in the images after I get the paths from the tool execution in the next step.
-// For now I will use the hero images as placeholders.
-
 const projects = {
   "connector-app": {
     title: "LogiSense Salesforce Connector",
@@ -29,6 +24,7 @@ const projects = {
     ],
     results: [
       "Launched on Salesforce AppExchange.",
+      "Application documentation and screenshots can be found on the <a href="https://learn.logisense.com/docs/1511653389/" target="_blank">LogiSense Website.</a>";
       "Enabled users to sync data reliably without developer intervention, significantly lowering integration-related support overhead.",
       "Enabled 2-way real-time synchronization of account, opportunty, and order data."
     ],

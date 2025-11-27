@@ -327,7 +327,6 @@ export default function CaseStudy() {
             </div>
           </div>
         </section>   
-
  {/* Key Learnings */}
         <section className="grid lg:grid-cols-12 gap-12 border-t border-neutral-200 pt-20">
           <div className="lg:col-span-4">
